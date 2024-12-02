@@ -1,0 +1,1 @@
+gcloud dataflow flex-template run "apache-beam-dataflow" --template-file-gcs-location="gs://beam-prj-data/templates/dataflow-template.json"
