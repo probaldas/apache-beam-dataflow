@@ -1,0 +1,9 @@
+{
+    "source": {
+        "inputFilePath": "gs://beam-prj-data/beam-prj-data/dataflow/zillow.csv"
+    },
+    "sink": {
+        "successOutputFilePath": "gs://beam-prj-data/beam-prj-data/dataflow/zillow-results.txt",
+        "failureOutputFilePath": "gs://beam-prj-data/beam-prj-data/dataflow/zillow-unknown.txt"
+    }
+}
